@@ -1,0 +1,47 @@
+main{
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 300px;
+  height: auto;
+  max-height: 1700px;
+  margin: 0 auto;
+}
+#loading{
+  height: 1000px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 200px;
+}
+#num{
+  color: rgb(73, 73, 73);
+  font-size: 24px;
+  /* line-height: 600px; */
+}
+#play{
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+#bj,#dt,#loading{
+  width: 100%;
+  max-width: 1200px;
+  min-width: 300px;
+}
+#bj{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+#dt{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+
+}
